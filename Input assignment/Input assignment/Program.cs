@@ -9,7 +9,7 @@ class Program
         Console.Write("Enter a number: ");
         string input = Console.ReadLine();
 
-        // (Optional) echo to the console, similar to your "Console.WriteLine(card);"
+        // Print the number I entered so I can see it on the screen
         Console.WriteLine(input);
 
         // Write the number to a text file
