@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwentyOne", "TwentyOne\TwentyOne.csproj", "{B8D3D8AE-B414-4C6F-9832-29C05BE16159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino", "Casino\Casino.csproj", "{3FE1FBB9-05C5-408D-B955-5077C0A077E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B8D3D8AE-B414-4C6F-9832-29C05BE16159}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8D3D8AE-B414-4C6F-9832-29C05BE16159}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8D3D8AE-B414-4C6F-9832-29C05BE16159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE1FBB9-05C5-408D-B955-5077C0A077E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE1FBB9-05C5-408D-B955-5077C0A077E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE1FBB9-05C5-408D-B955-5077C0A077E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE1FBB9-05C5-408D-B955-5077C0A077E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

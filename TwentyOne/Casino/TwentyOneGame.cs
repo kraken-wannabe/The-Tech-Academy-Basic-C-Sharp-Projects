@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino.TwentyOne
 {
     public class TwentyOneGame : Game , IWalkAway
     {
@@ -126,7 +126,7 @@ namespace TwentyOne
                     Console.WriteLine("Dealer busted!");
                     foreach (KeyValuePair<Player, int> entry in Bets)
                     {
-                        Console.WriteLine("{0} wins {1}", entry.Key.Name, entry.Value);
+                        Console.WriteLine("{0} wins {1}. Your balance is now {2}.", entry.Key.Name, entry.Value, player.Balance);
                         Players.Where(x => x.Name == entry.Key.Name).First().Balance += (entry.Value * 2);
                         Dealer.Balance -= entry.Value;
                     }
@@ -143,13 +143,13 @@ namespace TwentyOne
                 }
                 else if (playerWon == true)
                 {
-                    Console.WriteLine("{0} wins {1}!", player.Name, Bets[player]);
+                    Console.WriteLine("{0} wins {1}! Your balance is now {2}.", player.Name, Bets[player], player.Balance);
                     player.Balance += (Bets[player] * 2);
                     Dealer.Balance -= Bets[player];
                 }
                 else
                 {
-                    Console.WriteLine("Dealer wins {0} from {1}", Bets[player], player.Name);
+                    Console.WriteLine("Dealer wins {0} from {1}. Your balance is now {2}.", Bets[player], player.Name, player.Balance);
                     Dealer.Balance += Bets[player];
                 }
                 Console.WriteLine("Play again?");
