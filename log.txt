@@ -180,3 +180,42 @@ Casino.Card
 Casino.Card
 10/16/2025 4:22:30 PM
 Casino.Card
+b21631d1-ee9b-43bd-997d-f9d0699cc1e0
+Exception of type 'System.Exception' was thrown.
+c182d70e-a311-4984-88df-313b4f828db1
+ae0d2e0a-52ed-4f79-86ed-2aa89cb48512
+10/16/2025 5:47:01 PM
+Two of Clubs
+10/16/2025 5:47:01 PM
+Two of Clubs
+10/16/2025 5:47:01 PM
+Two of Clubs
+10/16/2025 5:47:01 PM
+Two of Clubs
+2c16be15-05bc-4276-bc8d-ae7630282106
+10/16/2025 5:49:17 PM
+Casino.Card
+10/16/2025 5:49:17 PM
+Casino.Card
+10/16/2025 5:49:17 PM
+Casino.Card
+10/16/2025 5:49:17 PM
+Casino.Card
+f326ae13-52f5-492b-beb6-d8e66402ef27
+10/16/2025 5:49:50 PM
+Two of Clubs
+10/16/2025 5:49:50 PM
+Two of Clubs
+10/16/2025 5:49:50 PM
+Two of Clubs
+10/16/2025 5:49:50 PM
+Two of Clubs
+9835b9ac-270d-4934-8f94-d976290e1dc5
+10/16/2025 5:53:48 PM
+Casino.Card
+10/16/2025 5:53:48 PM
+Casino.Card
+10/16/2025 5:53:48 PM
+Casino.Card
+10/16/2025 5:53:48 PM
+Casino.Card
